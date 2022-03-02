@@ -1,2 +1,2 @@
 # projeto-cordel
- Projeto de um cordel do curso HTML e CSS
+ Projeto de um cordel do curso de HTML e CSS
