@@ -62,22 +62,42 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
-    background-color: white;
+    background-color:white;
     color: black;
     font-family: var(--fonte3);
+    border-radius: 0px 0px 10px 10px;
+
 }
 
 section.imagem {
     background-color: rgb(44, 42, 42);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.46); /* sombra interna */
+    background-size: cover; /* fazer com quê a imagem se adapte auto */
+    background-attachment: fixed; /* fazer efeito parallax simples */
+    border-radius: 10px 10px 0px 0px;
 }
 
 section.imagem > p {
-    display: inline-block;
+    display: inline-block; /* transformar em uma caixa */
     border-radius: 6px;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
@@ -86,4 +106,6 @@ footer {
     text-align: center;
     padding: 5px;
     font-family: var(--fonte1);
+    border-radius: 10px;
+
 }
