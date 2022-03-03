@@ -10,7 +10,8 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-* {margin: 0px;
+* {
+    margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
@@ -70,8 +71,6 @@ section.normal {
     background-color:white;
     color: black;
     font-family: var(--fonte3);
-    border-radius: 0px 0px 10px 10px;
-
 }
 
 section.imagem {
@@ -80,7 +79,6 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.46); /* sombra interna */
     background-size: cover; /* fazer com quê a imagem se adapte auto */
     background-attachment: fixed; /* fazer efeito parallax simples */
-    border-radius: 10px 10px 0px 0px;
 }
 
 section.imagem > p {
@@ -106,6 +104,4 @@ footer {
     text-align: center;
     padding: 5px;
     font-family: var(--fonte1);
-    border-radius: 10px;
-
 }
